@@ -17,22 +17,8 @@ Atenção: Este projeto está em fase ativa de desenvolvimento!
 🔒	Autenticação básica	❌ Pendente
 ⚙️ Tecnologias Utilizadas
 Tecnologia	Descrição	Versão
-Java	Linguagem principal	17+
+Java	Linguagem principal	21+
 Spring Boot	Framework backend	3.x
 H2	Banco em memória	2.1+
 JPA	Persistência de dados	-
 Lombok	Redução de boilerplate	1.18+
-🏗️ Estrutura do Projeto
-src/
-├── main/
-│   ├── java/
-│   │   └── com/almoxarifado/
-│   │       ├── config/       # Configurações
-│   │       ├── controller/   # Endpoints REST
-│   │       ├── model/        # Entidades JPA
-│   │       ├── repository/   # Interfaces DAO
-│   │       ├── service/      # Lógica de negócio
-│   │       └── Application.java
-│   └── resources/
-│       ├── application.yml   # Configurações
-│       └── data.sql          # Dados iniciais
